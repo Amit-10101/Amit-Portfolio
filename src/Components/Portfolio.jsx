@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/laptop.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Filmpire - AI Powered Movie App",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Filmpire is a dynamic React application that leverages modern web technologies to provide users with a comprehensive film database, featuring robust search capabilities and personalized film recommendations.",
+    url: "https://filmpire-ak.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Codex - AI Chatbot",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is a full-stack JavaScript web application with a client-server architecture. It features a front-end built with HTML, CSS, and JavaScript, and a back-end server implemented in Node.js.",
+    url: "https://github.com/Amit-10101/Codex-AI-Chatbot",
   },
   {
-    title: "My Resume Site",
+    title: "LiveCam Color Transformer",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "LiveCam Color Transformer is a Python-based application leveraging OpenCV to dynamically adjust webcam feed color grading in real-time.",
+    url: "https://github.com/Amit-10101/Webcam_Color_Grading_with_OpenCV",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "My Personal Portfolio Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "An interactive portfolio website, built with modern HTML, CSS, and JavaScript, showcasing personal projects, skills, and professional experience.",
+    url: "https://github.com/Amit-10101/Amit-Kumar-Portfolio-Website",
   },
 ];
 
@@ -64,7 +64,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              boxShadow: "0 0 10px 0 rgba(0,0,0,0.3)",
+            }}
             alt={imageAltText}
           />
         </div>
